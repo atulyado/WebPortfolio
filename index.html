@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Atul Yado — Computer Science student at Mahidol University building practical cybersecurity projects.">
+  <meta name="theme-color" content="#101b2a">
+  <title>Atul Yado | Cybersecurity Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="#top" aria-label="Atul Yado, back to top"><span class="brand-mark">AY</span><span>Atul Yado</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#learning">Learning</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="nav-cta" href="assets/Atul_Yado_Resume.pdf" download>Resume <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE · MAHIDOL UNIVERSITY</p>
+        <h1 id="hero-title">Hi, I'm Atul.<br><em>I build, test,</em><br>and secure.</h1>
+        <p class="hero-lede">I’m a computer science student in Thailand interested in cybersecurity. My projects focus on application security, network traffic, and explaining what a fix actually changes.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore my projects <span aria-hidden="true">↘</span></a>
+          <a class="button secondary" href="mailto:atulyado198@gmail.com">Get in touch <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-meta"><span>Based in Nakhon Pathom, Thailand</span><span>Seeking cybersecurity internships</span></div>
+      </div>
+      <div class="hero-diagram" aria-label="My approach: explore, test, fix, and verify"><div class="diagram-head"><span class="diagram-symbol">&lt;/&gt;</span><span>HOW I WORK</span><span>01 / 04</span></div><ol><li><span>01</span><strong>Explore</strong><small>Understand the system</small></li><li><span>02</span><strong>Test</strong><small>Reproduce the issue</small></li><li><span>03</span><strong>Fix</strong><small>Change the cause</small></li><li><span>04</span><strong>Verify</strong><small>Check the result</small></li></ol><div class="diagram-foot">LEARN BY BUILDING <span aria-hidden="true">↗</span></div></div>
+    </section>
+
+    <section class="section projects-section" id="projects" aria-labelledby="projects-title"><div class="wrap">
+      <div class="section-heading"><div><p class="eyebrow">SELECTED WORK / 2026</p><h2 id="projects-title">Projects with proof.</h2></div><p>Hands-on work I can walk through, from the problem to the tested result.</p></div>
+      <div class="project-grid">
+        <article class="project-card featured"><div class="card-top"><span class="number">01</span><span class="tag">APPLICATION SECURITY</span></div><div class="project-visual sql-visual" aria-hidden="true"><div class="visual-window"><div class="window-dots"><i></i><i></i><i></i></div><div class="code-line"><span>unsafe_query</span><b>→</b><span class="bad">bypass</span></div><div class="code-line"><span>parameterized_query</span><b>→</b><span class="good">rejected ✓</span></div></div></div><h3>SQL Injection: Attack, Fix, Verify</h3><p>A local web lab comparing a vulnerable login with a secure implementation. Three HTTP tests demonstrate the bypass, rejection, and normal login.</p><div class="chips"><span>Node.js</span><span>Express</span><span>SQLite</span><span>bcrypt</span></div><a class="text-link" href="https://github.com/atulyado/SQL-Injection-Attack-Fix-Verify" target="_blank" rel="noopener noreferrer">View source & case study <span aria-hidden="true">↗</span></a></article>
+        <article class="project-card"><div class="card-top"><span class="number">02</span><span class="tag">NETWORK SECURITY</span></div><div class="project-visual network-visual" aria-hidden="true"><div class="network-node main-node">SRC</div><div class="network-path"></div><div class="network-node dest-node">DST</div><div class="packet packet-a">TCP</div><div class="packet packet-b">UDP</div><div class="packet packet-c">ICMP</div></div><h3>Packet Sniffer</h3><p>A Python command line tool that captures TCP, UDP, and ICMP traffic, logs packet details, and flags bursts from a single source for investigation.</p><div class="chips"><span>Python</span><span>Scapy</span><span>CLI</span></div><a class="text-link" href="https://github.com/atulyado/Packet-Sniffer" target="_blank" rel="noopener noreferrer">View source & instructions <span aria-hidden="true">↗</span></a></article>
+      </div>
+      <a class="folio-link" href="assets/Atul_Yado_Project_Folio.pdf" download>Download the two-page project folio <span aria-hidden="true">↓</span></a>
+    </div></section>
+
+    <section class="section about-section" id="about" aria-labelledby="about-title"><div class="wrap about-grid"><div><p class="eyebrow">A LITTLE ABOUT ME</p><h2 id="about-title">Curiosity, backed by practice.</h2><p class="about-text">I study Computer Science at Mahidol University. I enjoy turning security concepts into small, repeatable projects: reproduce the issue, understand why it happens, make a fix, and verify the result.</p><p class="about-text">I also completed a student apprenticeship with Indorama Polyester Industries in its Warehouse / Store Department in 2023.</p></div><div class="about-aside"><div class="aside-block"><h3>Tools I use</h3><p>Python, JavaScript / Node.js, SQL, Scapy, SQLite, Git, Wireshark, Burp Suite, and Nmap.</p></div><div class="aside-block"><h3>What I am exploring</h3><p>Application security, network traffic analysis, cloud fundamentals, and incident response.</p></div></div></div></section>
+
+    <section class="section learning-section" id="learning" aria-labelledby="learning-title"><div class="wrap"><div class="section-heading"><div><p class="eyebrow">COURSES & PRACTICAL LEARNING</p><h2 id="learning-title">Learning in public.</h2></div><p>Completed courses and labs that support the projects above. These are course, participation, and achievement records, not professional certifications.</p></div><div class="learning-grid"><article><span>01 / CYBERSECURITY</span><h3>Introduction to Cybersecurity</h3><p>Cisco Networking Academy · Course completion</p><small>May 2026</small></article><article><span>02 / CLOUD</span><h3>AWS Cloud Practitioner Essentials</h3><p>AWS Training & Certification · Course completion</p><small>June 2026</small></article><article><span>03 / HANDS-ON LAB</span><h3>Hacker Holidays</h3><p>TryHackMe · Completion certificate</p><small>August 2026</small></article><article><span>04 / BLUE TEAM LAB</span><h3>Downtime</h3><p>TryHackMe · Participation in alert triage, threat hunting, forensics, and incident response activities</p><small>October 2026</small></article><article><span>05 / SERVICE DESIGN</span><h3>Service Design Bootcamp</h3><p>FOURDIGIT · Certificate of Achievement for teamwork and communication</p><small>October 2026</small></article></div></div></section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="wrap contact-grid"><div><p class="eyebrow">LET'S CONNECT</p><h2 id="contact-title">Have an internship<br>opportunity in mind?</h2><p>I’d be glad to talk about security projects and how I can contribute to your team.</p></div><div class="contact-links"><a href="mailto:atulyado198@gmail.com">Email me <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/atul-yado" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a href="https://github.com/atulyado" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div></div></section>
+  </main>
+  <footer><div class="wrap footer-inner"><span>© <span id="year">2026</span> Atul Yado</span><span>Built for the web, with care.</span><a href="#top">Back to top ↑</a></div></footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
